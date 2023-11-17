@@ -1,4 +1,5 @@
 import React from "react";
+import Business from "../Grow/Business";
 
 export default function Accelerator() {
   return (
@@ -38,6 +39,7 @@ export default function Accelerator() {
           </div>
         </div>
       </div>
+      <Business />
     </div>
   );
 }
