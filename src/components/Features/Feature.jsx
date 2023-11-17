@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Feature() {
   return (
-    <div className="w-full ">
-      <div className="container mx-auto p-10">
-        <div className="flex flex-col gap-5 relative">
+    <div className="w-full bg-[#F6F6F6]">
+      <div className="container mx-auto p-5 lg:p-0 ">
+        <div className="flex flex-col gap-5 relative ">
           <div className="flex flex-col text-center items-center">
             <p className="text-lg font-bold">How to become successful </p>
             <h1 className="text-6xl font-bold text-[#5BBB3D]">IN 5 STEPS</h1>
           </div>
-          <div className="flex gap-1">
+          <div className="flex gap-1 ">
             <div className="flex flex-col items-center gap-2 absolute top-[149%] left-[7%]">
               <div className="text-xl font-bold text-[#25C5D9]">Spy</div>
               <p className="text-sm w-full text-right lg:w-6/12 mr-[44%]">
