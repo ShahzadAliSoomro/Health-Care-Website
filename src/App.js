@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Accelerator from './components/Accelerator/Accelerator';
 import Desc from './components/Description/Desc';
 import Feature from './components/Features/Feature';
 import Futures from './components/Futures/Futures';
@@ -12,6 +13,7 @@ function App() {
       <Desc />
       <Feature />
       <Futures />
+      <Accelerator />
     </div>
   );
 }
