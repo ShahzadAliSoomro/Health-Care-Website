@@ -1,14 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="">
+      <Hero />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1 className="text-3xl font-bold underline">
+          
+      Hello world!
+    </h1>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
