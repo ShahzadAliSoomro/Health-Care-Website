@@ -47,15 +47,15 @@ export default function Business() {
             </div>
           </div>
           {/* /// Want expert, credible sound guidance to filter all the other noisy marketers telling you what to do /// */}
-          <div className="flex gap-10 justify-center items-center px-10">
-            <div className="ml-[16%] w-full">
+          <div className="flex flex-col lg:flex-row gap-10 justify-center items-center px-10">
+            <div className="lg:ml-[16%] ml-0 w-full">
               <img
                 src="/growimg/grow4.png"
                 alt=""
-                className="w-full lg:w-[80%]"
+                className="w-full lg:w-[80%] "
               />
             </div>
-            <div className="flex flex-col mr-[16%]">
+            <div className="flex flex-col lg:mr-[16%] mr-0 ">
               <h1 className="text-5xl font-bold ">IF YOU</h1>
               <p className="text-xl font-semibold w-full lg:w-8/12">
                 Want expert, credible sound{" "}
@@ -88,7 +88,7 @@ export default function Business() {
           <div className="flex flex-col md:flex-row w-full items-center ">
             <div className="flex flex-col text-center ml-[10%]">
               <p className="text-xl font-bold">READY TO JUMP INTO THE</p>
-              <h1 className="text-5xl font-bold text-[#5BBB3D]">
+              <h1 className="lg:text-5xl text-4xl font-bold text-[#5BBB3D]">
                 NUTRAFUNNELS ACCELERATOR?
               </h1>
               <div className="flex flex-col justify-center items-center text-center mt-5">
@@ -111,7 +111,7 @@ export default function Business() {
             </div>
           </div>
           {/* /// footer /// */}
-          <p className="text-xl font-normal">
+          <p className="lg:text-xl text-sm font-normal">
             Copyrights © 2022 NutraFunnels. All Rights Reserved
           </p>
         </div>

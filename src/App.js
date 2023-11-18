@@ -15,7 +15,7 @@ function App() {
       <Feature />
       <Futures />
       <Accelerator />
-      <SignUp />
+      {/* <SignUp /> */}
     </div>
   );
 }

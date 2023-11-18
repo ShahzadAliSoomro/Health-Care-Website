@@ -4,7 +4,7 @@ export default function Desc() {
   return (
     <div className="w-full">
       <div className="container mx-auto p-10">
-        <div className="flex flex-col justify-center items-center gap-5 text-center">
+        <div className="flex flex-col justify-center items-center gap-5 text-center mt-24 lg:mt-0">
           <h1 className="text-6xl font-bold text-[#5BBB3D]">In only 6 Days</h1>
           <p className="text-base font-semibold w-full lg:w-4/12">
             we're going to show you exactly how you can copy our success

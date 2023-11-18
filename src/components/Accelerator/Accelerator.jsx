@@ -4,11 +4,11 @@ import Business from "../Grow/Business";
 export default function Accelerator() {
   return (
     <div className="w-full">
-      <div className="container mx-auto mt-[25%]">
+      <div className="container mx-auto 2xl:mt-[25%] xl:mt-[37%] lg:mt-[43%] mt-[12%]">
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="flex flex-col text-center items-center">
             <p className="text-xl font-bold">THE 6 DAY ACCELERATOR</p>
-            <h1 className="text-5xl font-bold text-[#5BBB3D]">
+            <h1 className="lg:text-5xl text-3xl font-bold text-[#5BBB3D]">
               IS COMPLIMENTARY!
             </h1>
           </div>
