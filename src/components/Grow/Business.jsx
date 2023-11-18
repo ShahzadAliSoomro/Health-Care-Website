@@ -49,7 +49,11 @@ export default function Business() {
           {/* /// Want expert, credible sound guidance to filter all the other noisy marketers telling you what to do /// */}
           <div className="flex gap-10 justify-center items-center px-10">
             <div className="ml-[16%] w-full">
-              <img src="/growimg/grow4.png" alt="" className="w-full lg:w-[80%]" />
+              <img
+                src="/growimg/grow4.png"
+                alt=""
+                className="w-full lg:w-[80%]"
+              />
             </div>
             <div className="flex flex-col mr-[16%]">
               <h1 className="text-5xl font-bold ">IF YOU</h1>
@@ -80,31 +84,36 @@ export default function Business() {
             </div>
           </div>
           {/* /// Ready to jump into the NutraFunnels Accelerator /// */}
-         
-          <div className="flex flex-col md:flex-row w-full items-center ">
-          <div className="flex flex-col text-center ml-[10%]">
-          <p className="text-xl font-bold">READY TO JUMP INTO THE</p>
-            <h1 className="text-5xl font-bold text-[#5BBB3D]">NUTRAFUNNELS ACCELERATOR?</h1>
-            <div className="flex flex-col justify-center items-center text-center mt-5">
-            <div className="flex justify-center items-center">
-              <button className="bg-[#D20000] text-2xl font-bold text-white px-12 py-3 rounded-full">
-                Yes, I'm in
-              </button>
-            </div>
-            <p className="text-lg font-bold">Join For Free - No Charge! </p>
-          </div>
-            </div>
-            <div className="flex"> 
-              <div className="">
-              <img src="/growimg/grow6.png" alt="" className="w-[100%] h-[100%]"/>
-            </div>
 
+          <div className="flex flex-col md:flex-row w-full items-center ">
+            <div className="flex flex-col text-center ml-[10%]">
+              <p className="text-xl font-bold">READY TO JUMP INTO THE</p>
+              <h1 className="text-5xl font-bold text-[#5BBB3D]">
+                NUTRAFUNNELS ACCELERATOR?
+              </h1>
+              <div className="flex flex-col justify-center items-center text-center mt-5">
+                <div className="flex justify-center items-center">
+                  <button className="bg-[#D20000] text-2xl font-bold text-white px-12 py-3 rounded-full">
+                    Yes, I'm in
+                  </button>
+                </div>
+                <p className="text-lg font-bold">Join For Free - No Charge! </p>
+              </div>
             </div>
-           
-           
+            <div className="flex">
+              <div className="">
+                <img
+                  src="/growimg/grow6.png"
+                  alt=""
+                  className="w-[100%] h-[100%]"
+                />
+              </div>
+            </div>
           </div>
           {/* /// footer /// */}
-          <p className="text-xl font-normal">Copyrights © 2022 NutraFunnels. All Rights Reserved</p>
+          <p className="text-xl font-normal">
+            Copyrights © 2022 NutraFunnels. All Rights Reserved
+          </p>
         </div>
       </div>
     </div>

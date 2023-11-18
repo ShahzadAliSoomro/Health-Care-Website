@@ -8,12 +8,16 @@ export default function Hero() {
           <div className="w-full ">
             <img
               src="/heroimg/heromain.png"
-              alt="abc"
+              alt=""
               className="w-full bg-[#5BBB3D] rounded-b-full"
             />
           </div>
           <div className="absolute top-[6%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <img src="/heroimg/logo.png" alt="" className="" />
+          </div>
+          <div className="absolute top-[6%] right-0 transform -translate-x-1/2 -translate-y-1/2">
+            <a href="/signup/SignUp" className="text-[#5BBB3D] bg-white font-bold py-3 px-10 rounded-full 
+            shadow shadow-[#ffffff] hover:text-black hover:translate-y-1 text-2xl">Sign Up</a>
           </div>
           <div className="flex justify-between w-full items-center absolute top-[33%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <div className="w-full lg:w-4/12">
