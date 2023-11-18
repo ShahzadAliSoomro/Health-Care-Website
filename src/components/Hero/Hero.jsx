@@ -16,8 +16,13 @@ export default function Hero() {
             <img src="/heroimg/logo.png" alt="" className="" />
           </div>
           <div className="absolute 2xl:top-[6%] lg:top-[10%] sm:top-[10%] right-0 transform -translate-x-1/2 -translate-y-1/2">
-            <a href="/signup/SignUp" className="text-[#5BBB3D] bg-white font-bold py-3 lg:px-10 px-3 rounded-full 
-            shadow shadow-[#ffffff] hover:text-black hover:translate-y-1 text-2xl">Sign Up</a>
+            <a
+              href="/signup"
+              className="text-[#5BBB3D] bg-white font-bold py-3 lg:px-10 px-3 rounded-full 
+            shadow shadow-[#ffffff] hover:text-black hover:translate-y-1 text-2xl"
+            >
+              Sign Up
+            </a>
           </div>
           <div className="flex justify-between w-full items-center absolute top-[33%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <div className="w-full lg:w-4/12">
@@ -72,18 +77,24 @@ export default function Hero() {
         </div>
         {/* /// mobile view /// */}
         <div className="md:hidden flex justify-between items-center px-5 bg-[#5BBB3D] w-[100%] p-3 fixed top-0 z-50">
-          
           <div className="">
-          <img src="/heroimg/logo.png" alt="" className="w-[180px] object-cover" />
-
+            <img
+              src="/heroimg/logo.png"
+              alt=""
+              className="w-[180px] object-cover"
+            />
           </div>
           <div className="">
-            <a href="/signup/SignUp" className="text-[#5BBB3D] bg-white font-bold py-2 px-5 rounded-full 
-            shadow shadow-[#ffffff] hover:text-black hover:translate-y-1 text-2xl">Sign Up</a>
+            <a
+              href="/signup"
+              className="text-[#5BBB3D] bg-white font-bold py-2 px-5 rounded-full 
+            shadow shadow-[#ffffff] hover:text-black hover:translate-y-1 text-2xl"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
