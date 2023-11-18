@@ -50,22 +50,26 @@ export default function Business() {
             <div className="flex flex-col ">
               <h1 className="text-5xl font-bold ">IF YOU</h1>
               <p className="text-xl font-semibold w-full lg:w-4/12">
-                Want expert, credible sound <span className="text-[#5BBB3D] font-bold">guidance</span>  to filter all the other
-               <span className="text-[#0B9443] font-bold">"noisy marketers"</span>  telling you what to do.
+                Want expert, credible sound{" "}
+                <span className="text-[#5BBB3D] font-bold">guidance</span> to
+                filter all the other
+                <span className="text-[#0B9443] font-bold">
+                  "noisy marketers"
+                </span>{" "}
+                telling you what to do.
               </p>
             </div>
           </div>
           <div className="flex flex-col gap-5 justify-center items-center">
             <div className="flex flex-col justify-center items-center">
-                  <h1 className="text-5xl font-bold ">IF YOU</h1>
+              <h1 className="text-5xl font-bold ">IF YOU</h1>
 
-            <p className="text-xl font-semibold w-full">
-            Are ready to make real life-changing progress 
-
-            </p>
-            <p className="text-2xl font-bold">in just 6-days!</p>
+              <p className="text-xl font-semibold w-full">
+                Are ready to make real life-changing progress
+              </p>
+              <p className="text-2xl font-bold">in just 6-days!</p>
             </div>
-        
+
             <div>
               <img src="/growimg/grow5.png" alt="" />
             </div>
