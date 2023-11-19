@@ -62,7 +62,7 @@ export default function Futures() {
             </div>
             {/* /// left futures add /// */}
             <div className="flex flex-col gap-10">
-              <div className="flex flex-col gap-2 absolute 2xl:left-[37%] xl:left-[37%] lg:left-[31%] transform -translate-x-1/2 top-[149%]">
+              <div className="flex flex-col gap-2 absolute 2xl:left-[37%] xl:left-[35%] lg:left-[31%] transform -translate-x-1/2 top-[149%]">
                 <div className="flex flex-col justify-center items-center">
                   <div className="text-xl font-bold text-[#25C5D9] flex justify-center items-center">
                 <img src="/futureimg/left.png" alt="" className="w-[50%]" />
@@ -89,7 +89,7 @@ export default function Futures() {
             </div>
             {/* /// right futures add // */}
             <div className="flex flex-col gap-10">
-              <div className="flex flex-col gap-2 absolute 2xl:left-[64%] xl:left-[64%] lg:left-[71%] transform -translate-x-1/2 top-[149%]">
+              <div className="flex flex-col gap-2 absolute 2xl:left-[64%] xl:left-[67%] lg:left-[71%] transform -translate-x-1/2 top-[149%]">
                 <div className="flex flex-col justify-center items-center">
                   <div className="text-xl font-bold text-[#25C5D9] flex justify-center items-center">
                 <img src="/futureimg/right.png" alt="" className="w-[50%]" />

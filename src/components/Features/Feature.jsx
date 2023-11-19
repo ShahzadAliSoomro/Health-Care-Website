@@ -33,7 +33,7 @@ export default function Feature() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center gap-2 absolute top-[370%] 2xl:left-[4%] xl:left-[-7%] lg:left-[-10%]">
+            <div className="flex flex-col items-center gap-2 absolute top-[370%] 2xl:left-[4%] xl:left-[-2%] lg:left-[-10%]">
               <div className="text-xl font-bold text-[#FFAC1E] ">
                 Funnel hack
               </div>
