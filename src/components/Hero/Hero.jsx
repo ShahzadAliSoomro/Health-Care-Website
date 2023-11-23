@@ -18,7 +18,7 @@ export default function Hero() {
           <div className="absolute 2xl:top-[6%] lg:top-[10%] sm:top-[10%] right-0 transform -translate-x-1/2 -translate-y-1/2">
             <a
               href="/signup"
-              className="text-[#5BBB3D] bg-white font-bold py-3 lg:px-10 px-3 rounded-full 
+              className="text-[#5BBB3D] cursor-pointer bg-white font-bold py-3 lg:px-10 px-3 rounded-full 
             shadow shadow-[#ffffff] hover:text-black hover:translate-y-1 text-2xl"
             >
               Sign Up
