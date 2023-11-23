@@ -25,7 +25,7 @@ export default function FormData() {
 //   };
 
 //   const firebaseEndpoint =
-//     "https://webhealthcare-36632-default-rtdb.asia-southeast1.firebasedatabase.app";
+//     "";
 //   const employeesEndpoint = `${firebaseEndpoint}/employees.json`;
 
 //   fetch(employeesEndpoint, {
