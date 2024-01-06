@@ -43,7 +43,6 @@ export default function Forms() {
     setNewEmployee({ ...newEmployee, gender: e.target.value });
   };
 
-  
   console.log(employees);
 
   return (
