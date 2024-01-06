@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
 
 export default function FormData() {
-  return (
-    <div>FormData</div>
-  )
+  return <div>FormData</div>;
 }
-
 
 // import React, { useState } from "react";
 
@@ -53,7 +50,7 @@ export default function FormData() {
 //     <div className="flex justify-center p-5">
 //       <div className="flex flex-col gap-4">
 //         <h1 className="text-3xl ">Employee Management</h1>
-        
+
 //         <div className="flex flex-col gap-4">
 //           <input
 //             type="text"
