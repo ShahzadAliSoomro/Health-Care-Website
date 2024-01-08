@@ -6,6 +6,7 @@ import {
   onSnapshot,
 } from "firebase/firestore";
 import db from "../../fireStore/firestore";
+
 export default function Forms() {
   const [employees, setEmployees] = useState([]);
   const [newEmployee, setNewEmployee] = useState({
